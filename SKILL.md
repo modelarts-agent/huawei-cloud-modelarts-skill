@@ -1,7 +1,7 @@
 
 \## 基本信息
 
-\- 技能名称：ModelArts\_Resource\_Manager
+\- 技能名称：huawei-cloud-modelarts-skill
 
 \- 版本：1.0.0
 
