@@ -1,8 +1,12 @@
 ---
-name: ModelArts 资源全功能管理 Skill
+name: huawei-cloud-modelarts-skill
 description: 提供 ModelArts 全栈基础资源管理能力
----
 
+# Optional fields
+license: MIT
+metadata:
+  author: modelarts-agent
+---
 
 \## 基本信息
 
