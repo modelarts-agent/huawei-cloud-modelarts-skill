@@ -1,17 +1,4 @@
 # Huawei Cloud ModelArts Skill
-
-
-
-![GitHub License](https://img.shields.io/github/license/maozhonghao/huawei-cloud-modelarts-skill)
-
-
-
-![GitHub Stars](https://img.shields.io/github/stars/maozhonghao/huawei-cloud-modelarts-skill)
-
-
-
-![GitHub Forks](https://img.shields.io/github/forks/maozhonghao/huawei-cloud-modelarts-skill)
-
 ## 项目介绍
 
 `huawei-cloud-modelarts-skill` 是一套适配 **华为云 ModelArts** 平台的技能工具集，旨在简化 AI 模型开发、训练、部署全流程的操作成本，提供高效的辅助脚本、自动化工具及最佳实践模板。
@@ -19,8 +6,6 @@
 无论是 ModelArts 新手快速上手，还是资深开发者提升工作流效率，本项目都能提供针对性的工具支持，覆盖数据预处理、模型调优、部署运维等核心场景。
 
 ## 核心功能
-
-
 
 * 🚀 **自动化脚本**：提供数据格式转换、模型导出、批量任务提交等脚本（`scripts/` 目录）
 
@@ -34,20 +19,16 @@
 
 ### 1. 环境准备
 
-
-
 * 操作系统：Linux/macOS/Windows（推荐 Linux 环境，适配 ModelArts 在线开发环境）
 
 * Python 版本：3.7+
 
 * 依赖安装：
 
-
-
 ```
 \# 克隆仓库
 
-git clone https://github.com/maozhonghao/huawei-cloud-modelarts-skill.git
+git clone https://github.com/modelarts-agent/huawei-cloud-modelarts-skill.git
 
 cd huawei-cloud-modelarts-skill
 
@@ -68,8 +49,6 @@ pip install -r requirements.txt
 
 
 ## 目录结构说明
-
-
 
 ```
 huawei-cloud-modelarts-skill/
@@ -97,8 +76,6 @@ huawei-cloud-modelarts-skill/
 
 ## 详细文档
 
-
-
 * 完整功能说明与进阶用法：[SKILL.md](SKILL.md)
 
 * 华为云 ModelArts 官方文档：[ModelArts 帮助中心](https://support.huaweicloud.com/modelarts/)
@@ -120,7 +97,6 @@ A：检查以下几点：
 ### Q2：依赖安装失败？
 
 A：尝试更换华为云镜像源：
-
 
 
 ```
