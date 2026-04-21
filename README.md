@@ -58,57 +58,14 @@ pip install -r requirements.txt
 
 ### 2. 华为云配置
 
-
-
 1. 登录 [华为云控制台](https://console.huaweicloud.com/)，开通 **ModelArts** 与 **OBS** 服务
 
-2. 创建 OBS 桶（用于存储数据、模型文件）
-
-3. 获取华为云访问密钥（AK/SK）：
+2. 获取华为云访问密钥（AK/SK）：
 
 * 进入「我的凭证」→「访问密钥」→「新增访问密钥」
 
 * 保存 `credentials.csv` 文件（包含 AK/SK，请勿公开）
 
-### 3. 基础使用示例
-
-#### 示例 1：运行数据预处理脚本
-
-
-
-```
-\# 转换数据集格式（适配 ModelArts 输入要求）
-
-python scripts/data\_convert.py \\
-
-&#x20; \--input-path "obs://your-bucket/raw-data/" \\
-
-&#x20; \--output-path "obs://your-bucket/processed-data/" \\
-
-&#x20; \--ak "your-access-key" \\
-
-&#x20; \--sk "your-secret-key" \\
-
-&#x20; \--region "cn-north-4"  # 你的 ModelArts 区域
-```
-
-#### 示例 2：使用工具监控训练任务
-
-
-
-```
-\# 查看 ModelArts 训练任务状态
-
-python tools/task\_monitor.py \\
-
-&#x20; \--task-id "xxx-xxx-xxx-xxx" \\
-
-&#x20; \--ak "your-access-key" \\
-
-&#x20; \--sk "your-secret-key" \\
-
-&#x20; \--region "cn-north-4"
-```
 
 ## 目录结构说明
 
@@ -154,8 +111,6 @@ huawei-cloud-modelarts-skill/
 
 A：检查以下几点：
 
-
-
 1. AK/SK 是否正确（避免空格、换行）
 
 2. 区域是否匹配（如 ModelArts 部署在「华北 - 北京四」，region 需填 `cn-north-4`）
@@ -173,8 +128,6 @@ pip install -r requirements.txt -i https://repo.huaweicloud.com/repository/pypi/
 ```
 
 ## 贡献指南
-
-
 
 1. Fork 本仓库
 
@@ -194,10 +147,4 @@ pip install -r requirements.txt -i https://repo.huaweicloud.com/repository/pypi/
 
 若有问题或需求，可通过以下方式联系：
 
-
-
 * GitHub Issues：[提交问题](https://github.com/maozhonghao/huawei-cloud-modelarts-skill/issues)
-
-* 邮箱：your-email@example.com（建议替换为你的实际邮箱）
-
-> （注：文档部分内容可能由 AI 生成）
