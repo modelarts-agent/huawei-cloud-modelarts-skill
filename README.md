@@ -55,17 +55,13 @@ huawei-cloud-modelarts-skill/
 
 ├── scripts/                # 核心自动化脚本目录
 
-│   ├── data\_convert.py     # 数据格式转换脚本
+│   ├── init.sh     # 初始化脚本
 
-│   ├── model\_export.py     # 模型导出（适配 ModelArts 部署）
-
-│   └── task\_submit.py      # 批量提交训练任务
+│   ├── skill.py     # modelarts资源操作
 
 ├── tools/                  # 辅助工具
 
-│   ├── log\_analyzer.py     # 训练日志分析工具
-
-│   └── resource\_monitor.py # 资源占用监控
+│   └── security.py # 安全脚本
 
 ├── README.md               # 项目说明（本文档）
 
