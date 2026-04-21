@@ -1,3 +1,8 @@
+---
+name: huawei-cloud-modelarts-skill
+description: 提供 ModelArts 全栈基础资源管理能力
+---
+
 
 \## 基本信息
 
