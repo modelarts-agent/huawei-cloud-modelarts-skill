@@ -123,4 +123,4 @@ pip install -r requirements.txt -i https://repo.huaweicloud.com/repository/pypi/
 
 若有问题或需求，可通过以下方式联系：
 
-* GitHub Issues：[提交问题](https://github.com/maozhonghao/huawei-cloud-modelarts-skill/issues)
+* GitHub Issues：[提交问题](https://github.com/modelarts-agent/huawei-cloud-modelarts-skill/issues)
