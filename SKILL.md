@@ -1,5 +1,7 @@
-\# ModelArts 资源全功能管理 Skill
-
+---
+name: ModelArts 资源全功能管理 Skill
+description: 提供 ModelArts 全栈基础资源管理能力
+---
 
 
 \## 基本信息
